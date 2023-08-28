@@ -1,0 +1,4 @@
+client-to-client                 
+duplicate-cn                     
+topology subnet                  
+cipher AES-256-CBC

@@ -1,0 +1,155 @@
+.container {
+    display: flex;
+      width: 80%;
+      margin: auto;
+  }
+  
+  #title {
+      text-align: center;
+  }
+  
+  .chatbox {
+      display: flex;
+    max-width: 450px;
+      flex-direction: column;
+      height: 500px;
+      background-color: yellow;
+      border-radius: 20px;
+      overflow: hidden;
+  }
+  
+  .chatlogs {
+      padding: 10px;
+      flex-grow: 1;
+      overflow-y: scroll;
+  }
+  
+  .chat-form {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+  }
+  
+  .chat-input {
+      flex-grow: 1;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 20px;
+      background-color: #eee;
+  }
+  
+  .send-btn {
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      background-color: #0084ff;
+      color: #fff;
+      margin-left: 10px;
+      cursor: pointer;
+  }
+  
+  .chat-message {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+  }
+  
+  .chat-message .message {
+      display: inline-block;
+      max-width: 70%;
+      padding: 10px;
+      border-radius: 20px;
+      margin-bottom: 5px;
+      word-wrap: break-word;
+  }
+  
+  .chat-message .time {
+      font-size: 12px;
+      color: #aaa;
+      margin-left: 10px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px; /* 스크롤바의 너비 */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #bbb; /* 스크롤바 색상 */
+    border-radius: 10px; /* 스크롤바 모서리 둥글기 */
+  }
+  
+  /* 가로 스크롤바 */
+  ::-webkit-scrollbar-horizontal {
+    height: 10px; /* 스크롤바의 높이 */
+  }
+  
+  /* 세로 스크롤바 */
+  ::-webkit-scrollbar-vertical {
+    width: 10px; /* 스크롤바의 너비 */
+  }
+  
+  .VideoContainer {
+    display: flex;
+      width: 80%;
+      margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  .VideoContainer #LocalFace {
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: blue;
+  }
+  
+  .VideoContainer #LocalFace #localVideo{
+    border-radius: 20px;
+    background-color: black;
+    width: 250px;
+    height: 200px;
+    
+  }
+  
+  .VideoContainer #RemoteFace{
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    width: 720px;
+    background-color: #0084ff;
+      height: 360px;
+      width: 1200px;
+      display: block;
+      overflow-x: scroll;
+    float: left;
+  }
+  
+  .VideoContainer #RemoteFace .video{
+      background-color: black;
+    height: 240px;
+    width: 300px;
+  }
+  
+  .VideoContainer #remoteVideo{
+      float: left;
+  }
+  
+  /* Light */
+  
+  .lightcontainer {
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+  }
+  
+  .lightbox {
+      width: 200px; /* 각 div의 너비 */
+      height: 200px; /* 각 div의 높이 */
+      border: 1px solid black;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+  }

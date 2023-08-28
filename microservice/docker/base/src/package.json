@@ -1,0 +1,21 @@
+{
+  "name": "microservice",
+  "version": "1.0.0",
+  "description": "microservice for home network system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyeung-rok Yun",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mediasoup": "^3.12.8",
+    "mediasoup-client": "^3.6.98",
+    "msc-node": "^0.0.10",
+    "request-ip": "^3.3.0",
+    "socket.io": "^4.7.1",
+    "socket.io-client": "^4.7.1"
+  }
+}

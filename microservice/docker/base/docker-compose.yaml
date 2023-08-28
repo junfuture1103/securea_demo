@@ -1,0 +1,15 @@
+version: '3'
+services:
+  signaling:
+    container_name: "signaling"
+    network_mode: "host"
+    image: "signalingbase:0.1"
+    restart: "always"
+    tty: true
+    ports:
+      - "443:443" 
+
+    # volumes:
+    #   - "./:/usr/src"
+    
+    command: node signaling.js
